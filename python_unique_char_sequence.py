@@ -15,6 +15,6 @@ while i < len(buffer):
     current = buffer[i:i+window]
     current_set = set(current)
     if len(current_set) == window:
-        print(f"Found solution: '{current}' starting at index {i}. Answer {i+4}")
+        print(f"Found solution: '{current}' starting at index {i}. Answer {i+window}")
         break
     i += 1
